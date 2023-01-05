@@ -585,20 +585,20 @@ int game(int lg)
         } else {
             xx4='#';
         }
-        printf("%d | %d | %d | %d",xs1,xs2,xs3,xs4);
-        s[xs1][dt]=xx1;
-        s[xs2][dt2]=xx1;
-        s[xs3][dt3]=xx1;
-        s[xs4][dt4]=xx1;/*
+        printf("%d | %d | %d | %d // %d | %d | %d | %d",xs1,xs2,xs3,xs4,dt,dt2,dt3,dt4);
 
+        if(dt2<0){
+            dt2=0;
+        }
+/*
         s[xs1][dt+1]=xx1;
         s[xs1-1][dt]=xx1;
         s[xs1][dt]=xx1;
         s[xs1+1][dt]=xx1;
 
         s[xs2][dt2+1]=xx2;
-        s[xs2][dt2]=xx2;
         s[xs2-1][dt2]=xx2;
+        s[xs2][dt2]=xx2;
         s[xs2+1][dt2]=xx2;
 
         s[xs3][dt3+1]=xx3;
