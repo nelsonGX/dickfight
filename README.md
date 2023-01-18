@@ -1,4 +1,5 @@
 # DickFight
+**WEBSITE:** https://dickfight.nelsongx.com  
 A game that can be played on Windows and Linux.  
 支持中文與英文版
 **The Windows version's code of line 594~612 has some problem to make it not working. Please contact me if you have any idea about that.**  
